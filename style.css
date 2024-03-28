@@ -1,0 +1,136 @@
+.navigation_bar
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#cart
+{
+    width: 50%;
+    height: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.header_section{
+    flex-direction: column;
+  max-height: 100%;
+  max-width: 20%;
+  padding: 4% 5%;
+}
+header {
+    height: 500px;
+    width: 100%;
+    background-image: url("./assets/kw-background.png");
+    background-size: 100% 100%;
+    color: white;
+  }
+  
+.books,.games,.crafts{
+    width: 200px;
+    height: 250px;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    gap: 10px;
+}
+.buy
+{
+    display: flex;
+    justify-content: space-between;
+}
+.button
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(79, 79, 239);
+}
+.footer_section
+{
+    padding: 50px 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_section div img
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 425px) {
+    .navigation_bar
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 80%;
+}
+#cart
+{
+    width: 50%;
+    height: 20px;
+    display: flex;
+    justify-content: end;
+}
+.header_section
+{
+    width: auto;
+    height: auto;
+    background-image: url('assets/kw-background.png');
+    background-size: cover; 
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.books,.games,.crafts{
+    width: 200px;
+    height: 250px;
+
+}
+.buy
+{
+    display: flex;
+    justify-content: space-between;
+}
+.button
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(79, 79, 239);
+}
+.button img
+{
+    padding-top: 10px;
+    width: 50%;
+    height: 50%;
+}
+.footer_section
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_section div img
+{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+  }
